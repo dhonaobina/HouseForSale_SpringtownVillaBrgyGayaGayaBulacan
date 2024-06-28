@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*--Nav Section--*/
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to top, #9ACD32, #808080);
+    padding: 1 !important;
+}
+
+.navbar-nav li {
+    padding: 5px 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-toggler-icon {
+    color: #fff; /* Change icon color */
+}
+
+/*--Hero Section--*/
+
+#banner {
+    background-image: linear-gradient(to top, #9ACD32, #808080);
+    color:#fff;
+    padding: 5%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 100px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#banner-photo {
+    height: 550px;
+    width: 450px;
+    border-radius: 10px;
+}
