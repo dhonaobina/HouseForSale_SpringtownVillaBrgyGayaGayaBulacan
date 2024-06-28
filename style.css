@@ -38,13 +38,11 @@ body {
 #banner {
     background-image: linear-gradient(to top, #9ACD32, #808080);
     color:#fff;
-    padding: 5%;
 }
 
 .promo-title {
     font-size: 40px;
     font-weight: 600px;
-    margin-top: 100px;
 }
 
 #banner a {
@@ -56,4 +54,27 @@ body {
     height: 550px;
     width: 450px;
     border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+/*--About Section--*/
+
+#about {
+    padding: 80px 0;
+}
+
+.about-img1 {
+    width: 200px;
+}
+
+.about-img2 {
+    width: 230px;
+}
+
+.about-img3 {
+    width: 200px;
 }
